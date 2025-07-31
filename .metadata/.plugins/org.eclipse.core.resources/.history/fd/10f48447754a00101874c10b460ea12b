@@ -1,0 +1,37 @@
+package com.hrms.controller;
+
+public class Snippet {
+	2025-06-16T11:13:10.433+05:30[0;39m [32mDEBUG[0;39m [35m18232[0;39m [2m---[0;39m [2m[hrms-backend] [nio-9090-exec-8][0;39m [2m[0;39m[36mo.s.security.web.FilterChainProxy       [0;39m [2m:[0;39m Securing GET /payroll
+	[2m2025-06-16T11:13:10.503+05:30[0;39m [32mDEBUG[0;39m [35m18232[0;39m [2m---[0;39m [2m[hrms-backend] [nio-9090-exec-8][0;39m [2m[0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+	    select
+	        u1_0.id,
+	        u1_0.created_at,
+	        u1_0.email,
+	        u1_0.password,
+	        u1_0.role,
+	        u1_0.updated_at,
+	        u1_0.username 
+	    from
+	        users u1_0 
+	    where
+	        u1_0.username=?
+	Hibernate: 
+	    select
+	        u1_0.id,
+	        u1_0.created_at,
+	        u1_0.email,
+	        u1_0.password,
+	        u1_0.role,
+	        u1_0.updated_at,
+	        u1_0.username 
+	    from
+	        users u1_0 
+	    where
+	        u1_0.username=?
+	[2m2025-06-16T11:13:10.532+05:30[0;39m [32mDEBUG[0;39m [35m18232[0;39m [2m---[0;39m [2m[hrms-backend] [nio-9090-exec-8][0;39m [2m[0;39m[36mo.s.security.web.FilterChainProxy       [0;39m [2m:[0;39m Secured GET /payroll
+	[2m2025-06-16T11:13:10.537+05:30[0;39m [32mDEBUG[0;39m [35m18232[0;39m [2m---[0;39m [2m[hrms-backend] [nio-9090-exec-8][0;39m [2m[0;39m[36mo.s.security.web.FilterChainProxy       [0;39m [2m:[0;39m Securing GET /error
+	[2m2025-06-16T11:13:10.539+05:30[0;39m [32mDEBUG[0;39m [35m18232[0;39m [2m---[0;39m [2m[hrms-backend] [nio-9090-exec-8][0;39m [2m[0;39m[36mo.s.s.w.a.AnonymousAuthenticationFilter [0;39m [2m:[0;39m Set SecurityContextHolder to anonymous SecurityContext
+	[2m2025-06-16T11:13:10.540+05:30[0;39m [32mDEBUG[0;39m [35m18232[0;39m [2m---[0;39m [2m[hrms-backend] [nio-9090-exec-8][0;39m [2m[0;39m[36mo.s.s.w.a.Http403ForbiddenEntryPoint    [0;39m [2m:[0;39m Pre-authenticated entry point called. Rejecting access
+	
+}
+
